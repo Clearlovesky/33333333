@@ -1,0 +1,187 @@
+@media (max-width: 766px){
+  .search{
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
+    height: 4.5rem;
+    width: 3rem;
+    z-index: 3;
+  }
+  .search>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+  .search>a>span{
+    display: inline-block;
+    background-image: url(../images/ico_searchhuang@2x.png);
+    background-size: 100% 100%; 
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1.3rem;
+  }
+  .nav-tabs{
+    border: none;
+    box-shadow: 0 3px 4px #e3e3de7d;
+    height: 4.5rem;
+    font-family: ".PingFangSC";
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  .nav-tabs>li{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .nav-tabs>li:first-child{
+    padding-left: 4.5rem;
+  }
+  .nav-tabs>li:last-child{
+    padding-right: 4.5rem;
+  }
+  .nav-tabs>li>a{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0;
+    font-size: 2rem;
+    line-height: 4.5rem;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+    color: #F8E71C;
+    border-bottom: 3px solid #F8E71C;
+  }
+  .list2{
+    padding: 0 0.9rem;
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    margin-top: 5rem;
+  }
+  .list2>li{
+    width: 100%;
+    height: 14rem;
+    margin-bottom: 0.4rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+  .list2>li>a{display: inline-block;width: 100%;height: 100%;}
+  .list2>li>a>div.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000000c9
+  }
+  .list2>li>a>div.img>img{
+    width: 100%;
+    opacity: 1;
+  }
+  .dropload-down{
+    text-align: center;
+  }
+}
+@media (max-width: 322px){
+  .list2>li{
+    width: 100%;
+    height: 12rem;
+    margin-bottom: 0.4rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (min-width: 766px){
+  .search{
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
+    height: 5.2rem;
+    width: 4rem;
+    z-index: 2;
+  }
+  .search>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+  .search>a>span{
+    display: inline-block;
+    background-image: url(../images/ico_searchhuang@2x.png);
+    background-size: 100% 100%; 
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1.3rem;
+  }
+  .nav-tabs{
+    border: none;
+    box-shadow: 0 3px 4px #e3e3de7d;
+    height: 5.2rem;
+    font-family: ".PingFangSC";
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  .nav-tabs>li{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .nav-tabs>li:first-child{
+    padding-left: 4.5rem;
+  }
+  .nav-tabs>li:last-child{
+    padding-right: 4.5rem;
+  }
+  .nav-tabs>li>a{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0;
+    font-size: 3rem;
+    line-height: 5.2rem;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+    color: #F8E71C;
+    border-bottom: 5px solid #F8E71C;
+  }
+  .list2{
+    padding: 0 0.9rem;
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    margin-top: 6rem;
+  }
+  .list2>li{
+    width: 100%;
+    height: 28rem;
+    margin-bottom: 0.4rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  .list2>li>a{display: inline-block;width: 100%;height: 100%;}
+  .list2>li>a>div.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000000c9
+  }
+  .list2>li>a>div.img>img{
+    width: 100%;
+    opacity: 1;
+  }
+  .dropload-down{
+    text-align: center;
+  }
+}

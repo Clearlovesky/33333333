@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" href="css/ganhuo.css">
+	<title>干货首页</title>
+</head>
+<body>
+  <!-- 头部搜索按钮 start-->
+  <div class="search"><a href="search.html?keyword=1"><span></span></a></div>
+  <!-- 头部搜索按钮 end-->
+	<!-- 标签页........................................................start -->
+  <ul class="nav nav-tabs" role="tablist" id="tab-list">
+    <li role="presentation" class="active"><a href="#trainList" aria-controls="trainList" role="tab" data-toggle="tab">训练</a></li>
+    <li role="presentation"><a href="#foodList" aria-controls="foodList" role="tab" data-toggle="tab">饮食</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content clearfix">
+    <!-- 训练列表 -->
+    <div role="tabpanel" class="tab-pane fade in active content-1" id="trainList">
+      <ul class="lists list2 products list-1"></ul>  
+    </div>
+    <div role="tabpanel" class="tab-pane fade content-2" id="foodList">
+      <ul class="lists list2 products list-2"></ul>  
+    </div>
+  </div>
+  <!-- 标签页........................................................end -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/dropload.min.js"></script>
+<script src="js/food.js"></script>
+<script src="js/train.js"></script>
+</body>
+</html>

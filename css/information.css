@@ -1,0 +1,108 @@
+/* 小于766px屏幕-------------------------------------------------- */
+@media (max-width: 766px){
+	.left>a>img,.right>img{
+		margin-top: 0.8rem;
+	}
+	/* 主题内容 */
+	.main{
+		padding: 4%;
+		width: 100%;
+		background-color: #fff;
+		margin-top: 3rem;
+	}
+	.info-r{
+		width: 5rem;
+		height: 3rem;
+		background-color: #fff;
+	}
+	button{
+		height: 1.6rem;
+		width: 4rem;
+		font-size: 0.7rem;
+		border-radius: 2rem;
+		border: none;
+		outline: none;
+		background-color: #F8E71C;
+		color: #fff;
+	}
+	.main h3{
+		width: 100%;
+		font-size: 1.3rem;
+	}
+	.main h4{
+		height: 2rem;
+		font-size: 0.9rem;
+		color: #898989;
+		margin-top: 0.5rem;
+		/* margin-bottom: 1rem; */
+	}
+	.main>h4>span{
+		color: #F5E518;
+	}
+	.main>.content{
+		width: 100%;
+		margin-top: 1rem;
+		font-size: 1rem;
+		overflow: hidden;
+		color: #898989;
+		font-family: PingFangSC;
+		margin-bottom: 3rem;
+	}
+	.showImg{
+		width: 100%;
+	}
+}
+/* 大于766px屏幕-------------------------------------------------- */
+@media (min-width: 766px){
+	.left>a>img,.right>img{
+		margin-top: 0.8rem;
+	}
+	/* 主题内容 */
+	.main{
+		padding: 4%;
+		width: 100%;
+		background-color: #fff;
+		margin-top: 4rem;
+	}
+	.info-r{
+		width: 5rem;
+		height: 3rem;
+		background-color: #fff;
+	}
+	button{
+		height: 1.6rem;
+		width: 4rem;
+		font-size: 0.7rem;
+		border-radius: 2rem;
+		border: none;
+		outline: none;
+		background-color: #F8E71C;
+		color: #fff;
+	}
+	.main h3{
+		width: 100%;
+		font-size: 1.5rem;
+	}
+	.main h4{
+		height: 2rem;
+		font-size: 1rem;
+		color: #898989;
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
+	}
+	.main>h4>span{
+		color: #F5E518;
+	}
+	.main>.content{
+		width: 100%;
+		margin-top: 1rem;
+		font-size: 1.5rem;
+		overflow: hidden;
+		color: #898989;
+		font-family: PingFangSC;
+		margin-bottom: 5rem;
+	}
+	.showImg{
+		width: 100%;
+	}
+}

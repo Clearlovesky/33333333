@@ -1,0 +1,105 @@
+/* 页面加载进度条 */
+.loading1{
+	width: 100%;height: 100%;
+	position: fixed;top: 0;left: 0;z-index: 100;
+	background-color: #fff;
+}
+.loading1 .pic{
+	width: 50px;height: 50px;
+	background: url(../images/798.gif);
+	background-size:cover;
+	position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin:auto;
+}
+
+@media (min-width: 766px){
+	header{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 3.9rem;
+		text-align: center;
+		border-bottom: 1.2px solid #F2F2F2;
+		background-color: #fff;
+		z-index: 100;
+	}
+	header .left{
+		line-height: 4.4rem;
+		float: left;
+		width: 14%;
+		height: 100%;
+	}
+	header>.left>a{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	header>.left>a img{
+		width: 20px;
+	}
+	header .right{
+		float: right;
+		width: 14%;
+		height: 100%;
+		line-height: 3.9rem;
+		font-size: 1rem;
+		color: #F8E71C;
+	}
+	header .middle{
+		float: left;
+		width: 72%;
+		height: 100%;
+		line-height: 3.9rem;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 766px){
+	header{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 3rem;
+		text-align: center;
+		border-bottom: 1.2px solid #F2F2F2;
+		background-color: #fff;
+		z-index: 100;
+	}
+	header .left{
+		line-height: 3.5rem;
+		float: left;
+		width: 14%;
+		height: 3rem;
+	}
+	header>.left>a{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	header>.left>a img{
+		width: 16px;
+	}
+	header .right{
+		float: right;
+		width: 14%;
+		height: 3rem;
+		line-height: 3rem;
+		font-size: 1rem;
+		color: #F8E71C;
+	}
+	header .middle{
+		float: left;
+		width: 72%;
+		height: 3rem;
+		line-height: 3rem;
+		font-size: 1.2rem;
+	}
+}
+/* pre标签会原样保留HTML内容的格式，可是如果宽度过大会把页面撑坏 */
+/* 让pre标签自动换行 */
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}

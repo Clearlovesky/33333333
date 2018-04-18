@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>干货-饮食文章详情</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/information.css">
+	<script>
+      document.onreadystatechange=function(){
+          if(document.readyState=='complete'){
+              $('.loading1').fadeOut();
+          }
+      }
+  </script>
+</head>
+<body>
+<!-- 网页加载进度条 -->
+   <div class="loading1">
+      <div class="pic"></div>
+   </div>
+	<header>
+		<div class="left">
+			<a href="#" onclick="javascript:window.history.back(-1);return false;"><img src="images/ico_back@3x.png" alt=""></a>
+		</div>
+		<div class="middle">饮食详情</div>
+		<div class="right">
+			<!-- <img src="images/ico_fenxiang@3x.png" height="16"alt=""> -->
+		</div>
+	</header>
+	<!-- 详情页主体部分开始 -->
+	<div class="main clearfix">
+		<!-- 推荐饮食展示信息 -->
+			<!-- <h3>快速减脂需要注意什么</h3>
+		  <h4>作者 : <span>谢霆锋</span></h4>
+		<img class="showImg" src="images/干货切图/6.bmp" alt="">
+		<div class="content"> 对于这</div> -->
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/information.js"></script>
+<!-- 推荐饮食展示信息 -->
+  <script id="information" type="text/html">
+      <h3>{{obj.title}}</h3>
+      <h4>类型 : <span>饮食</span></h4>
+    <img class="showImg" src="http://www.mffive.com:8080{{obj.picUrl}}" alt="">
+    <pre class="content">{{obj.content}}</pre>
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>搜索</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/drysaltery_search.css">
+</head>
+<body>
+	<header>
+			<form action="javascript:return true;">	
+		  <input id="keyword" type="search" name="search" placeholder="搜索课程、话题、饮食">
+			</form>
+		  <a class="goback" href="ganhuo.html"><img src="images/ico_back@3x.png" height="16"alt=""></a>
+		  <button id="search"><a href="ganhuo.html">取消</a></button>
+	</header>
+	<div class="delete history"></div>
+	<div class="history" id="his-dele">清空历史记录</div>
+
+	<!-- 点击搜索 刷新的页面部分 列表-->
+	<ul class="list2">
+		<!-- <li>
+				<div class="img"><img src="images/干货切图/6.bmp" alt=""></div>
+				<p class="one">宫保鸡丁射射射</p>
+		</li> -->
+	</ul>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/search.js"></script>
+	<!-- 点击搜索 刷新的页面部分 列表 -->
+	<script id="tplProducts" type="text/html">
+   {{each obj as item}}
+      <li class="product" type="{{item.type}}" drysalteryFileID="{{item.drysalteryFileID}}" level="{{item.level}}">
+					<div class="img">
+						<img src='http://www.mffive.com:8080/{{item.logoFile}}' alt="">
+					</div>
+      </li>
+   {{/each}}
+  </script>
+</body>
+</html>
